@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9fd19d1-53e6-4204-90c9-f372173b7976" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/auxiliar/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/ReportCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/InvalidDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/InvalidGradeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/InvalidIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/SchoolCapacityReachedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/testes/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/auxiliar/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/ReportCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/dominio/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/InvalidDateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/InvalidGradeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/InvalidIdException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/exceptions/SchoolCapacityReachedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Java/Fundamentos do Desenvolvimento Java/TP3_v2/src/main/java/testes/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,52 +57,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP3" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="exceptions" />
-      <recent name="dominio" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testes.Main" />
-      <module name="TP2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,9 +67,6 @@
       <option name="presentableId" value="Default" />
       <updated>1623452450043</updated>
       <workItem from="1623452451423" duration="1784000" />
-      <workItem from="1623455947166" duration="18000" />
-      <workItem from="1623499567523" duration="10929000" />
-      <workItem from="1623534325454" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="Adiciona base do menu e main no TP2">
       <created>1623453197551</created>
@@ -131,14 +82,7 @@
       <option name="project" value="LOCAL" />
       <updated>1623454171486</updated>
     </task>
-    <task id="LOCAL-00003" summary="Adiciona TP2">
-      <created>1623510713652</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1623510713652</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +103,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adiciona base do menu e main no TP2" />
     <MESSAGE value="Update git" />
-    <MESSAGE value="Adiciona TP2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona TP2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update git" />
   </component>
 </project>

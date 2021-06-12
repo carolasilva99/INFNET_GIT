@@ -17,7 +17,7 @@ public class Main {
     private static final int MAX_OPTION = 4;
     private static final int INVALID_OPTION = 0;
     private static final Scanner in = new Scanner(System.in);
-    private static final School school = new School();
+    private static School school = new School();
 
     public static void main(String[] args) {
 
