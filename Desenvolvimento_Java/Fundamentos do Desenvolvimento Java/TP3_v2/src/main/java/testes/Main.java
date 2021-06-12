@@ -1,8 +1,7 @@
 package testes;
 
-import auxiliar.Constant;
 import dominio.*;
-import exceptions.DateFormatException;
+import exceptions.InvalidDateException;
 import exceptions.InvalidGradeException;
 import exceptions.InvalidIdException;
 import exceptions.SchoolCapacityReachedException;
@@ -32,6 +31,7 @@ public class Main {
                 case 2 -> addStudent();
                 case 3 -> getSituation();
                 case 4 -> exit();
+                default -> System.out.println("Opção inválida!");
             }
         }
     }
@@ -71,7 +71,7 @@ public class Main {
             String subjectName;
             boolean keepGoing = true;
             while (keepGoing) {
-                System.out.println("Digite o nome da matéria " + i + " ou pressione <enter> para sair");
+                System.out.println("Digite o nome da matéria " + i + " que o professior leciona ou pressione <enter> para sair");
                 subjectName = in.nextLine();
                 if (subjectName.equals("")) {
                     keepGoing = false;
@@ -88,7 +88,7 @@ public class Main {
         try {
             Teacher teacher = new Teacher(name, birthDate, subjects);
             addPersonToSchool(teacher);
-        } catch (InvalidNameException | DateFormatException e) {
+        } catch (InvalidNameException | InvalidDateException e) {
             System.out.println(e.getMessage());
         }
 
@@ -150,7 +150,7 @@ public class Main {
                 ReportCard reportCard = new ReportCard(notas);
                 student = new Student(name, birthDate, reportCard);
                 addPersonToSchool(student);
-            } catch (InvalidGradeException | InvalidNameException | DateFormatException ex) {
+            } catch (InvalidGradeException | InvalidNameException | InvalidDateException ex) {
                 System.out.println(ex.getMessage());
             }
         }
@@ -159,7 +159,7 @@ public class Main {
             try {
                 student = new Student(name, birthDate);
                 addPersonToSchool(student);
-            } catch (InvalidNameException | DateFormatException e) {
+            } catch (InvalidNameException | InvalidDateException e) {
                 System.out.println(e.getMessage());
             }
         }

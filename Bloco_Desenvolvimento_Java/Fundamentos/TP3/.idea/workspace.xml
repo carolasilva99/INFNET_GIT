@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03163b54-b2fb-4d16-b975-2a70762f195f" name="Default Changelist" comment="" />
+    <list default="true" id="03163b54-b2fb-4d16-b975-2a70762f195f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TP2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP2 - Copia" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,6 +131,7 @@
       <workItem from="1623364929786" duration="4531000" />
       <workItem from="1623452073386" duration="1467000" />
       <workItem from="1623454377253" duration="328000" />
+      <workItem from="1623501935495" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="Adiciona tratamento de exceções e métodos de strings ao TP3">
       <created>1623370456179</created>
