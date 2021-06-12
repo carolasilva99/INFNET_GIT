@@ -22,18 +22,27 @@ public class Main {
 
         int option = 1;
 
-        while (option != MAX_OPTION) {
-            print_menu();
-            option = getOptionFromUser();
+        try {
+            while (option != MAX_OPTION) {
+                print_menu();
+                option = getOptionFromUser();
 
-            switch (option) {
-                case 1 -> addTeacher();
-                case 2 -> addStudent();
-                case 3 -> getSituation();
-                case 4 -> exit();
-                default -> System.out.println("Opção inválida!");
+                switch (option) {
+                    case 1 -> addTeacher();
+                    case 2 -> addStudent();
+                    case 3 -> getSituation();
+                    case 4 -> exit();
+                    default -> System.out.println("Opção inválida!");
+                }
             }
         }
+        catch (Exception ex) {
+            System.out.println("Ocorreu um erro: " + ex.getMessage());
+        }
+        finally {
+            in.close();
+        }
+
     }
 
     private static int getOptionFromUser() {
