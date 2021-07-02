@@ -33,7 +33,7 @@ public class Didatico extends Livro {
         }
 
         float valorDisciplina = 2.5f;
-        if (disciplina.equalsIgnoreCase("ESPANHOL")) {
+        if ("MATEMATICA".equalsIgnoreCase(disciplina) || "MATEMÁTICA".equalsIgnoreCase(disciplina)) {
             valorDisciplina = 4;
         }
 
@@ -43,5 +43,17 @@ public class Didatico extends Livro {
         }
 
         return this.getValorAluguel() + valorDisciplina + valorConservacao;
+    }
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+    public void setSerie(String serie) {
+        this.serie = serie;
+    }
+
+    public void setConservado(boolean conservado) {
+        this.conservado = conservado;
     }
 }

@@ -31,10 +31,18 @@ public class Literatura extends Livro {
         }
 
         float precoIdioma = 2;
-        if (!idioma.equalsIgnoreCase("pt")) {
+        if (!"pt".equalsIgnoreCase(this.idioma)) {
             precoIdioma = 4;
         }
 
         return this.getValorAluguel() + precoIdioma;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public void setIdioma(String idioma) {
+        this.idioma = idioma;
     }
 }

@@ -21,7 +21,7 @@ public abstract class Livro {
         return valorAluguel;
     }
 
-    public String obterLivro() throws DisciplinaNaoPreenchidaException {
+    public String obterLivro() throws DisciplinaNaoPreenchidaException, IdiomaNaoPreenchidoException, RamoNaoPreenchidoException {
         StringBuilder stringBuilder = new StringBuilder();
 
         stringBuilder.append(this.titulo);

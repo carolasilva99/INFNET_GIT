@@ -31,10 +31,18 @@ public class Cientifico extends Livro {
         }
 
         float valorPoucosVolumes = 2;
-        if (this.volumes > 6) {
+        if (this.volumes >= 6) {
             valorPoucosVolumes = 3;
         }
 
         return this.getValorAluguel() + valorPoucosVolumes;
+    }
+
+    public void setRamo(String ramo) {
+        this.ramo = ramo;
+    }
+
+    public void setVolumes(int volumes) {
+        this.volumes = volumes;
     }
 }
